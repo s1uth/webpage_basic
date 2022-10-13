@@ -1,27 +1,27 @@
 html{
     height: 100%;
-    }
+}
 
-    body{
+body{
     height: 100%;
     padding: 0px;
     margin: 0px;
     background: #C6004D;
-    }
+}
 
-    header {
+header {
     width: 1080px;
     height: 80px;
     position: relative;
-    }
+}
 
-    section.main {
+section.main {
     width: 1080px;
     height: 640px;
     position: relative;
-    }
+}
 
-    header > div.title{
+header > div.title{
     position: absolute;
     height: 36px;
     line-height: 36px;
@@ -32,21 +32,21 @@ html{
     font-weight: 600;
     font-size: 30px;
     color: #FFFFFF;
-    }
+}
 
-    header > div.title > span{
+header > div.title > span{
     font-weight: 300;
-    }
+}
 
-    header > img{
+header > img{
     position: relative;
     top: 15px;
     left: 285px;
     width: 190px;
     height: 50px;
-    }
+}
 
-    header > div.user{
+header > div.user{
     position: absolute;
     top: 25px;
     right: 30px;
@@ -57,31 +57,45 @@ html{
     font-weight: 700;
     font-size: 25px;
     color: #FFFFFF;
-    }
+}
 
-    header > div.user > span {
+header > div.user > span {
     font-weight: 300;
-    }
+}
 
-    section > div.menu {
+section > div.menu {
+    position: relative;
     box-sizing: border-box;
+    float: left;
     width: 250px;
     height: 640px;
 
-    padding-top: 32px;
+    padding: 20 82 23 30px;
 
     background-color: green;
-    }
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
 
-    section > div.menu > div.menu_item{
+
+    color: #FFFFFF;
+}
+
+section > div.menu > div.menu_item{
         width: 250px;
         height:64px;
         background-color: violet;
        
         margin-bottom: 9px;
-    }
+}
+section > div.menu > div.menu_item > div.inner{
+        
+}
 
-    section > div.contents{
+section > div.contents{
     position: absolute;
     width: 830px;
     height: 640px;
@@ -89,4 +103,4 @@ html{
     bottom: 0px;
     background: white;
     border-radius: 30px 0px 0px 0px;
-    }
+}
